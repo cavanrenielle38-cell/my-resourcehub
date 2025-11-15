@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Members Area - LinkedVA",
-  description: "A center for all our member resources",
+  title: "Made By Ren Vault",
+  description: "Resources hub for Funnel Strategists",
 };
 
 export default function RootLayout({ children }) {
