@@ -75,7 +75,7 @@ export default function Home() {
         {/* UPDATED: Removed "The Strategist's Vault" h1 */}
         <div className="text-center max-w-3xl">
           <h2 className="text-xl md:text-2xl text-slate-600 font-light leading-relaxed">
-            A curated collection of no-BS guides, actionable strategies, and real-world resources for Funnel Strategists.
+            hA curated collection of no-BS guides, actionable strategies, and real-world resources for Funnel Strategists.
           </h2>
         </div>
 
