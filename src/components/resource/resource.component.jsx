@@ -32,9 +32,7 @@ export default function ResourceComponent({ resource, clientResourceType }) {
       </Link>
 
       <div className="p-3 pb-7">
-        <span className="px-3 py-1 rounded-3xl text-xs border border-gray-200">
-          {clientResourceType?.fields.name}
-        </span>
+     
         <p className="text-gray-500 mb-2 mt-3 text-sm">
           {dayjs(resource.sys.createdAt).format("dddd, MMMM DD YYYY")}
         </p>
