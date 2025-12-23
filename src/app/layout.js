@@ -10,8 +10,35 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://madebyren.me'), // Ensures images load correctly
   title: "Made By Ren Vault",
   description: "Resources hub for Funnel Strategists",
+  
+  // Open Graph (Facebook, LinkedIn, Discord)
+  openGraph: {
+    title: "Made By Ren Vault",
+    description: "Resources hub for Funnel Strategists. Stop guessing, start architecting.",
+    url: 'https://madebyren.me',
+    siteName: 'Made By Ren',
+    images: [
+      {
+        url: 'https://storage.googleapis.com/msgsndr/agEzTZFOjO9SzqbJdY4l/media/694a613e7be49d7223fe8073.png',
+        width: 1200,
+        height: 630,
+        alt: 'Made By Ren Vault Preview',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  // Twitter Card (X)
+  twitter: {
+    card: 'summary_large_image',
+    title: "Made By Ren Vault",
+    description: "Resources hub for Funnel Strategists",
+    images: ['https://storage.googleapis.com/msgsndr/agEzTZFOjO9SzqbJdY4l/media/694a613e7be49d7223fe8073.png'],
+  },
 };
 
 export default function RootLayout({ children }) {
