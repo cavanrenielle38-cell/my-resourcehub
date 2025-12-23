@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://madebyren.me'), // Ensures absolute URLs for images work correctly
+  metadataBase: new URL('https://resources.madebyren.me'), // Ensures absolute URLs for images work correctly
   title: "Made By Ren Vault",
   description: "Resources hub for Funnel Strategists",
   
@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: "Made By Ren Vault",
     description: "Resources hub for Funnel Strategists. Stop guessing, start architecting.",
-    url: 'https://madebyren.me',
+    url: 'https://resources.madebyren.me',
     siteName: 'Made By Ren',
     images: [
       {
