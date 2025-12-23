@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://madebyren.me'), // Ensures images load correctly
+  metadataBase: new URL('https://madebyren.me'), // Ensures absolute URLs for images work correctly
   title: "Made By Ren Vault",
   description: "Resources hub for Funnel Strategists",
   
