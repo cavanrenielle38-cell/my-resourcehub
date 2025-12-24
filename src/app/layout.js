@@ -13,6 +13,9 @@ export const metadata = {
   metadataBase: new URL('https://resources.madebyren.me'), // Ensures absolute URLs for images work correctly
   title: "Made By Ren Vault",
   description: "Resources hub for Funnel Strategists",
+  icons: {
+    icon: 'https://storage.googleapis.com/msgsndr/agEzTZFOjO9SzqbJdY4l/media/68289ca139dd98fa149936af.png',
+  },
   
   // Open Graph (Facebook, LinkedIn, Discord)
   openGraph: {
